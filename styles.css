@@ -1,0 +1,74 @@
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(cinema.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 100px;
+}
+
+h3 {
+  font-size: 32px;
+  color: white;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-width: 300px;
+  max-width: 350px;
+  height: 500px;
+  box-shadow: 0.2px 3px 5px rgba(0, 0, 0, 1);
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-box {
+  height: 400px;
+}
+
+.box img {
+  width: auto;
+  max-width: 280px;
+  height: 100%;
+}
+
+.button {
+  color: blanchedalmond;
+  background-color: darkorchid;
+  font-weight: bold;
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+}
